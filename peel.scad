@@ -52,7 +52,7 @@ module handle() {
 
 module handle_hole() {
     translate([handle_hole_x_position, handle_hole_y_position, handle_hole_z_position]) {
-        cylinder(h = handle_hole_height, r = handle_hole_radius, $fn=facets);
+        cylinder(h = handle_hole_height, r = handle_hole_radius, $fn = facets);
     }
 }
 
