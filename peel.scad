@@ -33,7 +33,7 @@ handle_hole_z_position = -handle_z_size / 2;
 
 peel_x_size = paddle_x_position + paddle_x_size;
 peel_y_size = paddle_y_size;
-peel_z_size = handle_z_size;
+peel_z_size = max(handle_z_size, paddle_z_size);
 
 // CALCULATIONS END
 
