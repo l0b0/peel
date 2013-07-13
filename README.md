@@ -1,4 +1,4 @@
-pizza-peel
-==========
+peel
+====
 
 Pizza peel OpenSCAD design
